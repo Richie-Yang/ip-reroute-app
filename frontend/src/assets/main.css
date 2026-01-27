@@ -1,0 +1,58 @@
+@import './base.css';
+
+#app {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 2rem;
+  outline: 3px solid rgba(255, 255, 255, 0.3);
+  outline-offset: 10px;
+  border-radius: 20px;
+  margin: 20px;
+  background: rgba(255, 255, 255, 0.95);
+  box-shadow: 0 20px 60px rgba(0, 0, 0, 0.3);
+}
+
+.inner-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.lang-switcher {
+  margin-bottom: 2rem;
+  display: flex;
+  gap: 0.5rem;
+}
+
+button {
+  padding: 0.75rem 1.5rem;
+  border: 2px solid #667eea;
+  background: white;
+  color: #667eea;
+  border-radius: 8px;
+  font-size: 1rem;
+  font-weight: 500;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+button:hover {
+  background: #667eea;
+  color: white;
+  transform: translateY(-2px);
+  box-shadow: 0 4px 12px rgba(102, 126, 234, 0.4);
+}
+
+button:active {
+  transform: translateY(0);
+}
+
+.content {
+  font-size: 2rem;
+  font-weight: 600;
+  color: #333;
+  text-align: center;
+}
