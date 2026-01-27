@@ -1,0 +1,1 @@
+import{D as t}from"./DefaultLayout-BhQL2ZnA.js";import{d as o,c as a,w as s,o as r,a as n}from"./index-CxqL767D.js";import"./_plugin-vue_export-helper-DlAUqK2U.js";const u=o({__name:"TwHomeView",setup(m){return(p,e)=>(r(),a(t,null,{default:s(()=>[...e[0]||(e[0]=[n("div",{class:"content"},"繁體中文",-1)])]),_:1}))}});export{u as default};

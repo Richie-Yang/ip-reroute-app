@@ -1,0 +1,1 @@
+import{D as t}from"./DefaultLayout-BhQL2ZnA.js";import{d as o,c as a,w as s,o as n,a as r}from"./index-CxqL767D.js";import"./_plugin-vue_export-helper-DlAUqK2U.js";const u=o({__name:"EnHomeView",setup(i){return(l,e)=>(n(),a(t,null,{default:s(()=>[...e[0]||(e[0]=[r("div",{class:"content"},"English",-1)])]),_:1}))}});export{u as default};
