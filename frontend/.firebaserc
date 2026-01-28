@@ -1,0 +1,14 @@
+{
+  "projects": {
+    "default": "richie-demo"
+  },
+  "targets": {
+    "richie-demo": {
+      "hosting": {
+        "ip-reroute-app": [
+          "ip-reroute-app"
+        ]
+      }
+    }
+  }
+}

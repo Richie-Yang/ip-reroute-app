@@ -7,8 +7,15 @@ const router = useRouter()
 
 onMounted(() => {
   const lang = getCookie('lang')
-  if (lang === 'en')   router.push('/en')
-   else if (lang === 'tw')   router.push('/tw')
+  switch (lang) {
+    case 'tw':
+      router.push('/tw')
+      break
+    case 'en':
+    default:
+      router.push('/en')
+      break
+  }
 })
 </script>
 

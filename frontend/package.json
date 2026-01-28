@@ -11,7 +11,8 @@
     "test:e2e": "playwright test",
     "build-only": "vite build",
     "type-check": "vue-tsc --build",
-    "lint": "eslint . --fix --cache"
+    "lint": "eslint . --fix --cache",
+    "deploy": "npm run build && firebase deploy --only hosting:ip-reroute-app"
   },
   "dependencies": {
     "pinia": "^3.0.4",

@@ -30,12 +30,12 @@ func lookup(c *gin.Context) {
 	})
 }
 
-// func fakeLookup(c *gin.Context) {
-// 	c.JSON(200, gin.H{
-// 		"ip":       "127.0.0.1",
-// 		"city":     "Taipei",
-// 		"region":   "Taiwan",
-// 		"country":  "TW",
-// 		"location": "Taiwan",
-// 	})
-// }
+func fakeLookup(c *gin.Context) {
+	c.JSON(200, gin.H{
+		"ip":       "127.0.0.1",
+		"city":     "Taipei",
+		"region":   "Taiwan",
+		"country":  "TW",
+		"location": "Taiwan",
+	})
+}
