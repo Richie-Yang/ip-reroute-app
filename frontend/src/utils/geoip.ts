@@ -1,5 +1,7 @@
+const apiUrl = import.meta.env.VITE_API_BASE_URL
+
 export async function getGeoIP(): Promise<{ country: string }> {
-  const response = await fetch('http://localhost:8080/lookup', {
+  const response = await fetch(`${apiUrl}/lookup`, {
     method: 'POST',
     headers: {
       'Content-Type': 'application/json'
