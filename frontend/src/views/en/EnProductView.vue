@@ -27,6 +27,6 @@ onMounted(async () => {
 
 <template>
   <PurchaseLayout>
-      <div class="content">English Product</div>
+    <div class="content">US Product Page</div>
   </PurchaseLayout>
 </template>

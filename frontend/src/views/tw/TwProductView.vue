@@ -26,6 +26,6 @@ onMounted(async () => {
 
 <template>
   <PurchaseLayout>
-    <div class="content">繁體中文產品</div>
+    <div class="content">台灣產品頁面</div>
   </PurchaseLayout>
 </template>
